@@ -209,193 +209,7 @@ body {
    
   }
   /**********************/
-  @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*body {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 23px;
-  font-family: "Poppins", sans-serif;
-}
-*/
-ul {
-  list-style-type: none;
-}
-
-a,
-a:hover {
-  text-decoration: none;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-}
-body .testimonial {
-  padding: 100px 0;
-}
-body .testimonial .row .tabs {
-  all: unset;
-  margin-right: 50px;
-  display: flex;
-  flex-direction: column;
-}
-body .testimonial .row .tabs li {
-  all: unset;
-  display: block;
-  position: relative;
-}
-body .testimonial .row .tabs li.active::before {
-  position: absolute;
-  content: "";
-  width: 50px;
-  height: 50px;
-  background-color: #71b85f;
-  border-radius: 50%;
-}
-body .testimonial .row .tabs li.active::after {
-  position: absolute;
-  content: "";
-  width: 30px;
-  height: 30px;
-  background-color: #71b85f;
-  border-radius: 50%;
-}
-body .testimonial .row .tabs li:nth-child(1) {
-  align-self: flex-end;
-}
-body .testimonial .row .tabs li:nth-child(1)::before {
-  left: 64%;
-  bottom: -50px;
-}
-body .testimonial .row .tabs li:nth-child(1)::after {
-  left: 97%;
-  bottom: -81px;
-}
-body .testimonial .row .tabs li:nth-child(1) figure img {
-  margin-left: auto;
-}
-body .testimonial .row .tabs li:nth-child(2) {
-  align-self: flex-start;
-}
-body .testimonial .row .tabs li:nth-child(2)::before {
-  right: -65px;
-  top: 50%;
-}
-body .testimonial .row .tabs li:nth-child(2)::after {
-  bottom: 101px;
-  border-radius: 50%;
-  right: -120px;
-}
-body .testimonial .row .tabs li:nth-child(2) figure img {
-  margin-right: auto;
-  max-width: 300px;
-  width: 100%;
-  margin-top: -50px;
-}
-body .testimonial .row .tabs li:nth-child(3) {
-  align-self: flex-end;
-}
-body .testimonial .row .tabs li:nth-child(3)::before {
-  right: -10px;
-  top: -66%;
-}
-body .testimonial .row .tabs li:nth-child(3)::after {
-  top: -130px;
-  border-radius: 50%;
-  right: -46px;
-}
-body .testimonial .row .tabs li:nth-child(3) figure img {
-  margin-left: auto;
-  margin-top: -50px;
-}
-body .testimonial .row .tabs li:nth-child(3):focus {
-  border: 10px solid red;
-}
-body .testimonial .row .tabs li figure {
-  position: relative;
-}
-body .testimonial .row .tabs li figure img {
-  display: block;
-}
-body .testimonial .row .tabs li figure::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  border: 4px solid #dff9d9;
-  border-radius: 50%;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-body .testimonial .row .tabs li figure:hover::after {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
-body .testimonial .row .tabs.carousel-indicators li.active figure::after {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
-body .testimonial .row .carousel > h3 {
-  font-size: 20px;
-  line-height: 1.45;
-  color: rgba(0, 0, 0, 0.5);
-  font-weight: 600;
-  margin-bottom: 0;
-}
-body .testimonial .row .carousel h1 {
-  font-size: 40px;
-  line-height: 1.225;
-  margin-top: 23px;
-  font-weight: 700;
-  margin-bottom: 0;
-}
-body .testimonial .row .carousel .carousel-indicators {
-  all: unset;
-  padding-top: 43px;
-  display: flex;
-  list-style: none;
-}
-body .testimonial .row .carousel .carousel-indicators li {
-  background: #000;
-  background-clip: padding-box;
-  height: 2px;
-}
-body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper {
-  margin-top: 42px;
-}
-body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper p {
-  font-size: 18px;
-  line-height: 1.72222;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 0.7);
-}
-body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h3 {
-  color: #000;
-  font-weight: 700;
-  margin-top: 37px;
-  font-size: 20px;
-  line-height: 1.45;
-  text-transform: uppercase;
-}
-
-@media only screen and (max-width: 1200px) {
-  body .testimonial .row .tabs {
-    margin-right: 25px;
-  }
-}
+ 
 /************************CAIXAAA*********************************/
 
 
@@ -1069,7 +883,8 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
   width: 200px;
   height: 50px;
   background-color:#9aec6b;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-left: 120px;
       
 }
 .historia{
@@ -1095,15 +910,14 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
 #hard{
   text-align: center;
   color: #fff;
-  padding: 20px;
+  padding: 0px;
   margin-top: 100px;
 }
 #soft{
   text-align: center;
   color: #fff;
-  padding: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding: 0px;
+  margin: 20px;
 }
 
 #tecth{
@@ -1122,7 +936,9 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
 }
 .imginto{
   border-radius: 50%;
-  width: 400px;
+  height: 400px;
+  width: 380px;
+  
   margin-left: 10px;
  
 }
@@ -1131,10 +947,11 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
   margin-right: 30px;
 }
 /*slides*/
+
 h2 {
   color: #333;
   text-align: center;
-  text-transform: uppercase;
+  
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   position: relative;
@@ -1163,7 +980,7 @@ h2::after {
 }
 
 .carousel .carousel-item {
-  color: #999;
+  color: rgb(110, 27, 27);
   font-size: 14px;
   text-align: center;
   overflow: hidden;
@@ -1214,8 +1031,9 @@ h2::after {
   line-height: 42px;
   position: absolute;
   display: inline-block;
-  color: rgba(0, 0, 0, 0.8);
-  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+  color: rgba(161, 38, 38, 0.8);
+  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 rgb(153, 36, 36);
+
 }
 
 .carousel-indicators {
@@ -1232,14 +1050,14 @@ h2::after {
 }
 
 .carousel-indicators li {
-  background: #999;
+  background: rgb(88, 25, 25);
   border-color: transparent;
-  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 2px 1px rgba(70, 64, 167, 0.2);
 }
 
 .carousel-indicators li.active {
-  background: #555;
-  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(190, 29, 29);
+  box-shadow: inset 0 2px 1px rgba(167, 158, 207, 0.2);
 }
 /*cards*/
 
@@ -1249,6 +1067,7 @@ h2::after {
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
     background: #222235 !important;
+    margin-top: 50px;
 }
 
 .btn-primary:hover,
@@ -1363,7 +1182,8 @@ section .section-title {
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #431bb1 !important;
+    
 }
 
 .frontside .card .card-body img {
@@ -1372,37 +1192,52 @@ section .section-title {
     border-radius: 50%;
 }
 /*footer*/
-.col_white_amrc { color:#FFF;}
-footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;}
-.pt2 { padding-top:40px ; margin-bottom:20px ;}
-footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
-.mb10 { padding-bottom:15px ;}
-.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
-.footer_ul_amrc li {padding:0px 0px 5px 0px;}
-.footer_ul_amrc li a{ color:#CCC;}
-.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
-.fleft { float:left;}
-.padding-right { padding-right:10px; }
-
-.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
-.footer_ul2_amrc li p { display:table; }
-.footer_ul2_amrc li a:hover { text-decoration:none;}
-.footer_ul2_amrc li i { margin-top:5px;}
-
-.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
-.foote_bottom_ul_amrc {
-	list-style-type:none;
-	padding:0px;
-	display:table;
-	margin-top: 10px;
-	margin-right: auto;
-	margin-bottom: 10px;
-	margin-left: auto;
+body {
+  background: #2a2e32;
 }
-.foote_bottom_ul_amrc li { display:inline;}
-.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
 
-.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
-.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
-.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
-.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+}
+
+
+/* ==========================================
+    CUSTOM UTILS CLASSES
+  ========================================== */
+  body, html {
+    height: 100%;
+  }
+q{
+  color: #fff;
+  text-align: center;
+}
+#citacao{ 
+  color: #fff;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 0px !important;
+
+}
