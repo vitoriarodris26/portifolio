@@ -473,6 +473,7 @@ font-family: 'Montserrat', sans-serif !important;
   margin-left: 100px;
   margin-right: 100px;
   color: #fff;
+  justify-content: center;
 }
 #intro{
   margin-top: 50px;
@@ -879,7 +880,28 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
 }
 
 /*BOTAO*/
-#botaointo{
+
+.botaocurriculo{
+  background-color:#9aec6b;
+  border-radius: 30px;
+  border: none; 
+ display: flex;
+padding:15px;
+justify-content: center;
+margin-left: 470px;
+margin-top: 60px;
+
+}
+
+.linkbot{
+  color: #15151f;
+}
+.rede{
+  color: #9aec6b;
+}
+
+
+.botaointo{
   border-radius: 30px;
   border: none;
   width: 200px;
@@ -888,6 +910,7 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
   margin-top: 10px;
   margin-left: 120px;
   cursor: pointer;
+  
       
 }
 
@@ -901,6 +924,15 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
   color: #ffff;
   padding: 0%;
  
+}
+.card{
+  display: flex;
+  justify-content: baseline;
+  margin: 40px;
+  
+}
+.card-title{
+  color:#3d3175
 }
 
 /*cards*/
@@ -917,9 +949,11 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
 #hard{
   text-align: center;
   color: #fff;
-  padding: 0px;
-  margin-top: 100px;
-  text-transform: uppercase !important;
+  padding: 5px;
+  margin-top:5px;
+  margin-bottom: 80px;
+  font-size: 20px;
+  text-transform: none !important;
   font-family: 'Lilita One', cursive !important;
 font-family: 'Montserrat', sans-serif !important;
 }
