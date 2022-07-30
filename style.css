@@ -1,6 +1,8 @@
 
 body {
     background: #15151f !important;
+    scroll-behavior: smooth !important;
+   
   }
   /* main-header start */
   [data-target="#mainMenu"] {
@@ -215,7 +217,8 @@ body {
 
 .main-timeline {
   position: relative;
-  
+  font-family: 'Lilita One', cursive !important;
+font-family: 'Montserrat', sans-serif !important;
 }
 .main-timeline:before {
   content: "";
@@ -676,7 +679,7 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
   margin-top: 37px;
   font-size: 20px;
   line-height: 1.45;
-  text-transform: uppercase;
+  
 }
 
 @media only screen and (max-width: 1200px) {
@@ -864,9 +867,8 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
   margin-top: 37px;
   font-size: 20px;
   line-height: 1.45;
-  text-transform: uppercase;
+  
 }
-
 @media only screen and (max-width: 1200px) {
   body .testimonial .row .tabs {
     margin-right: 25px;
@@ -885,7 +887,12 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
   background-color:#9aec6b;
   margin-top: 10px;
   margin-left: 120px;
+  cursor: pointer;
       
+}
+
+.text{
+  text-align: justify;
 }
 .historia{
   margin-left: 100px;
@@ -912,20 +919,32 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
   color: #fff;
   padding: 0px;
   margin-top: 100px;
+  text-transform: uppercase !important;
+  font-family: 'Lilita One', cursive !important;
+font-family: 'Montserrat', sans-serif !important;
 }
 #soft{
   text-align: center;
   color: #fff;
-  padding: 0px;
-  margin: 20px;
+  padding: 5px;
+  margin-top:5px;
+  margin-bottom: 80px;
+  font-size: 20px;
+  text-transform: none !important;
+  font-family: 'Lilita One', cursive !important;
+font-family: 'Montserrat', sans-serif !important;
+  
 }
 
+
+
 #tecth{
-  margin-top: 5px;
-  margin-bottom: 20px;
+ 
+  margin: 20 500 220 50;
   text-align: center;
   color: #fff;
   padding: 20px;
+  font-size: 20px;
 }
 .video{
  
@@ -951,15 +970,21 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
 h2 {
   color: #333;
   text-align: center;
-  
-  font-family: "Roboto", sans-serif;
+  text-transform: none !important;
+ 
   font-weight: bold;
   position: relative;
   margin: 30px 0 60px;
+font-family: 'Lilita One', cursive !important;
+font-family: 'Montserrat', sans-serif !important;
 }
+
+
 
 h2::after {
   content: "";
+  text-transform: lowercase;
+
   width: 100px;
   position: absolute;
   margin: 0 auto;
@@ -968,6 +993,7 @@ h2::after {
   left: 0;
   right: 0;
   bottom: -10px;
+  font-size: 10px;
 }
 
 .col-center {
@@ -1012,7 +1038,7 @@ h2::after {
 }
 
 .carousel .overview b {
-  text-transform: uppercase;
+  
   color: #7AA641;
 }
 
@@ -1241,3 +1267,4 @@ q{
   margin-top: 0px !important;
 
 }
+
