@@ -12,6 +12,7 @@ body {
   
   .bg-black {
     background-color: #222235;
+   
     
 }
 
@@ -28,16 +29,26 @@ body {
 
 .navbar-nav {
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    
+   
+
+  
 }
 
 .nav-item {
     padding: 6px 14px;
     text-align: center ;
+   
 }
 
 .nav-link {
     padding-bottom: 10px; 
+}
+
+#enviar{
+  border-radius: 0px 10px 10px 0px;
 }
 
 .v-line {
@@ -1019,13 +1030,19 @@ margin-top: 60px;
 #hard{
   text-align: center;
   color: #fff;
-  padding: 5px;
-  margin-top:5px;
-  margin-bottom: 80px;
+  padding: 10px;
+  margin-top:10px;
+
   font-size: 20px;
   text-transform: none !important;
   font-family: 'Lilita One', cursive !important;
 font-family: 'Montserrat', sans-serif !important;
+}
+.hard2{
+  justify-content: center;
+  display: flex;
+  padding: 0%;
+  margin: 0%;
 }
 #soft{
   text-align: center;
