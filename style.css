@@ -10,17 +10,86 @@ body {
     z-index: 999;
   }
   
+  .bg-black {
+    background-color: #222235;
+}
+#caixa{
+  text-align: center;
+}
+#logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.navbar-brand {
+    padding: 14px 20px;
+    font-size: 16px;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-item {
+    padding: 6px 14px;
+    text-align: center ;
+}
+
+.nav-link {
+    padding-bottom: 10px; 
+}
+
+.v-line {
+    background-color: gray;
+    width: 1px;
+    height: 20px;
+}
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+}
+
+@media (max-width: 576px) {
+    .nav-item {
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .v-line {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   #mainMenu li > a {
     font-size: 12px;
     letter-spacing: 1px;
-    color: #fff;
+    color: rgb(13, 4, 29);
     font-weight: 400;
     position: relative;
     z-index: 1;
     text-decoration: none;
+    justify-content: space-between;
     
     
   }
+ 
   
   .main-header.fixed-nav #mainMenu li > a {
     color: #fff;
@@ -93,6 +162,7 @@ body {
   
   .main-header.fixed-nav .navbar-brand > img:first-of-type {
     display: none;
+    
   }
   .navbar-brand {
     color: #fff;
@@ -205,7 +275,7 @@ body {
     /*header ends*/
   }
   #logo{
-    width:150px ;
+
     
     padding: 0;
    
@@ -885,9 +955,9 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
   background-color:#9aec6b;
   border-radius: 30px;
   border: none; 
- display: flex;
+
 padding:15px;
-justify-content: center;
+
 margin-left: 470px;
 margin-top: 60px;
 
@@ -980,7 +1050,7 @@ font-family: 'Montserrat', sans-serif !important;
   padding: 20px;
   font-size: 20px;
 }
-.video{
+#video{
  
   text-align: center;
   color: #fff;
