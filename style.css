@@ -32,6 +32,7 @@ body {
     justify-content: space-around;
     padding: 10px;
     
+    
    
 
   
@@ -40,11 +41,16 @@ body {
 .nav-item {
     padding: 6px 14px;
     text-align: center ;
+    color:#108d6f
    
 }
 
 .nav-link {
     padding-bottom: 10px; 
+    font-family: 'Lilita One', cursive !important;
+font-family: 'Montserrat', sans-serif !important;
+   
+    
 }
 
 #enviar{
@@ -461,11 +467,18 @@ font-family: 'Montserrat', sans-serif !important;
   font-size: 19px;
   font-weight: 700;
   line-height: 24px;
-  margin: 0 0 15px 0
+margin-left: 30px;
+  
+  
+ 
 }
 
 .main-timeline .description {
-  margin-bottom: 0
+  margin-bottom: 0px;
+  display: flexbox ;
+  text-align: justify;
+  padding-left: 30px;
+  margin-top: 10px;
 }
 
 .main-timeline .timeline:nth-child(2n) .date-content {
@@ -545,7 +558,8 @@ font-family: 'Montserrat', sans-serif !important;
       
   }
   .main-timeline .title {
-      margin-bottom: 10px
+      margin-bottom: 10px;
+     
   }
 }
 .CONT{
@@ -964,13 +978,15 @@ body .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h
 
 .botaocurriculo{
   background-color:#9aec6b;
-  border-radius: 30px;
+  border-radius: 50px;
   border: none; 
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  padding: 10px;
 
-padding:15px;
-
-margin-left: 470px;
-margin-top: 60px;
 
 }
 
@@ -1007,13 +1023,18 @@ margin-top: 60px;
  
 }
 .card{
-  display: flex;
-  justify-content: baseline;
-  margin: 40px;
+  display: inline;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 35px;
+  
   
 }
 .card-title{
-  color:#3d3175
+  color:#3d3175;
+  font-family: 'Lilita One', cursive !important;
+  font-family: 'Montserrat', sans-serif !important;
+  
 }
 
 /*cards*/
@@ -1029,10 +1050,10 @@ margin-top: 60px;
 }
 #hard{
   text-align: center;
+  
   color: #fff;
   padding: 10px;
   margin-top:10px;
-
   font-size: 20px;
   text-transform: none !important;
   font-family: 'Lilita One', cursive !important;
@@ -1064,7 +1085,7 @@ font-family: 'Montserrat', sans-serif !important;
   margin: 20 500 220 50;
   text-align: center;
   color: #fff;
-  padding: 20px;
+  padding: 30px;
   font-size: 20px;
 }
 #video{
@@ -1386,6 +1407,9 @@ q{
   text-align: center;
   margin-bottom: 100px;
   margin-top: 0px !important;
+  padding: 15px;
+  font-family: 'Lilita One', cursive !important;
+font-family: 'Montserrat', sans-serif !important;
 
 }
 
