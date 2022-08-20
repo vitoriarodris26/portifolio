@@ -2,7 +2,7 @@
 body {
     background: #15151f !important;
     scroll-behavior: smooth !important;
-    max-width: auto;
+    max-width: auto !important;
   }
  
   
@@ -503,8 +503,8 @@ margin-left: 30px;
 .CONT{
   margin-top: 50px;
   margin-bottom: 200px;
-  margin-left: 100px;
-  margin-right: 100px;
+margin-left: auto;
+margin-right: auto;
   color: #fff;
   justify-content: center;
 }
@@ -1042,6 +1042,7 @@ font-family: 'Montserrat', sans-serif !important;
   text-align: center;
   color: #fff;
  padding-bottom: 30px;
+ 
 
 }
 .imginto{
